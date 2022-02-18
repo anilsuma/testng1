@@ -1,0 +1,34 @@
+[
+  {
+"firstName": "demo",
+"lastName": "user",
+  "country": "India",
+"addressLineone": "how",
+"city": "pune",
+  "state": "Andhra Pradesh",
+"postalcode": "411001",
+"email": "ask@gmail.com"
+   },
+  {
+    "firstName": "demo",
+    "lastName": "user",
+    "country": "United States (US)",
+    "addressLineone": "hello",
+    "city": "pune",
+    "state": "Virginia",
+    "postalcode": "24658",
+    "email": "ask@gmail.com"
+  },
+  {
+    "firstName": "demo",
+    "lastName": "user",
+    "country": "United Kingdom (UK)",
+    "addressLineone": "hellolondon",
+    "city": "pune",
+    "state": "London",
+    "postalcode": "EC3M",
+    "email": "ask@gmail.com"
+  }
+
+
+]
