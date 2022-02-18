@@ -38,7 +38,7 @@ public class AddToCart extends BaseTest {
         CartPage cartPage = new Storepage(getDriver()).load().getThumbnails().
                 clickaddTocartBtn(product.getName()).
                 clickViewCartLink();
-        Assert.assertEquals (cartPage.getProductName(), product.getName()+"dsfdjh");
+        Assert.assertEquals (cartPage.getProductName(), product.getName());
     }
     @Step
     @Story("add to cart playlist")
@@ -46,7 +46,7 @@ public class AddToCart extends BaseTest {
     public void AddToCartFeaturedProduct(String product) throws IOException {
 
         CartPage cartPage= new Homepage(getDriver()).load().getThumbnails().clickaddTocartBtn(product).clickViewCartLink();
-        Assert.assertEquals (cartPage.getProductName(), product+"sdhjh");
+        Assert.assertEquals (cartPage.getProductName(), product);
 
     }
 
