@@ -8,7 +8,7 @@
            <class name="Pom.classTest.AddToCart">
                <methods>
                    <include name="AddToCartFromStorepage"/>
-                   <include name="AddToCartFromStorepage"/>
+                   <include name="AddToCartFeaturedProduct"/>
 
 
                </methods>
